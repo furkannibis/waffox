@@ -19,11 +19,11 @@ Bu proje, çeşitli önemli özelliklere sahiptir:
 - Python 3.9 veya daha yeni bir sürümünün yüklü olması gerekmektedir.
 - Debian tabanlı Linux sistemler tavsiye edilmektedir.
 - Aşağıda belirtilen kütüphanelerin projede kullanılması gerekmektedir:
-    **Pandas**: Veri manipülasyonu için kullanılan bir kütüphane.
-    **Scikit-learn**: Makine öğrenmesi modellerinin oluşturulması ve değerlendirilmesi için kullanılan bir kütüphane.
-    **Joblib**: Eğitilen makine öğrenmesi modellerinin kaydedilmesi ve yüklenmesi için kullanılan bir kütüphane.
-    **TfidfVectorizer**: Metin verilerinin sayısal özelliklere dönüştürülmesi için kullanılan bir kütüphane.
-    **Scapy**: Ağ paketlerini yakalamak ve manipüle etmek için kullanılan bir kütüphane.
+    - **Pandas**: Veri manipülasyonu için kullanılan bir kütüphane.
+    - **Scikit-learn**: Makine öğrenmesi modellerinin oluşturulması ve değerlendirilmesi için kullanılan bir kütüphane.
+    - **Joblib**: Eğitilen makine öğrenmesi modellerinin kaydedilmesi ve yüklenmesi için kullanılan bir kütüphane.
+    - **TfidfVectorizer**: Metin verilerinin sayısal özelliklere dönüştürülmesi için kullanılan bir kütüphane.
+    - **Scapy**: Ağ paketlerini yakalamak ve manipüle etmek için kullanılan bir kütüphane.
 
 Projeyi çalıştırmak için, yukarıda belirtilen kütüphanelerin Python ortamınızda yüklü olması gerekmektedir. Bunları pip veya conda gibi paket yöneticileri kullanarak kurabilirsiniz. Ayrıca, projenin düzgün çalışması için Python 3.9 veya daha yeni bir sürümünü kullanmanız tavsiye edilmektedir. Debian tabanlı Linux sistemler, projenin test edildiği ve tavsiye edilen işletim sistemleridir, ancak diğer Linux dağıtımlarında da çalışabilir.
 
