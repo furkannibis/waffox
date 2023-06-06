@@ -32,10 +32,10 @@ Bu gereklilikleri karşıladığınızda, projeyi başarıyla çalıştırabilir
 ## ÖRNEK KULLANIM:
 Projenin örnek kullanımı aşağıdaki adımları içerebilir:
 
--Veri seti hazırlanır ve eğitim için kullanılır.
--Eğitim veri seti üzerinde bir makine öğrenimi modeli oluşturulur.
--Proje başlatılır ve ağ trafiği dinlenmeye başlar.
--Gelen paketler analiz edilir ve potansiyel saldırılar tespit edilir.
--Saldırı türlerine bağlı olarak koruma önlemleri uygulanır.
--Saldırı tespitleri ve uygulanan koruma önlemleri bir log dosyasına kaydedilir.
--Proje, güncel saldırı türleri ve koruma önlemleri hakkında bildirimler gönderebilir.
+- Veri seti hazırlanır ve eğitim için kullanılır.
+- Eğitim veri seti üzerinde bir makine öğrenimi modeli oluşturulur.
+- Proje başlatılır ve ağ trafiği dinlenmeye başlar.
+- Gelen paketler analiz edilir ve potansiyel saldırılar tespit edilir.
+- Saldırı türlerine bağlı olarak koruma önlemleri uygulanır.
+- Saldırı tespitleri ve uygulanan koruma önlemleri bir log dosyasına kaydedilir.
+- Proje, güncel saldırı türleri ve koruma önlemleri hakkında bildirimler gönderebilir.
