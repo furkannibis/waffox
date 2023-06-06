@@ -13,3 +13,18 @@ Bu proje, çeşitli önemli özelliklere sahiptir:
 - **Paket yakalama ve engelleme**: Proje, scapy kütüphanesi aracılığıyla ağ trafiğini dinlemekte ve gelen paketleri analiz etmektedir. Bu adım, web uygulamasına yönelik gelen istekleri ve yanıtları yakalar. Yakalanan paketler, daha sonra analiz için işlenir ve saldırı türlerini tespit etmek için kullanılır. Belirli saldırı türleri tespit edildiğinde, proje ilgili IP adreslerini engelleyerek saldırıları önlemektedir.
 
 - **Kural tabanlı koruma**: Proje, bir kural dosyasını okuyarak saldırı türleri ve koruma önlemleri arasındaki ilişkiyi anlamaktadır. Bu şekilde, belirli bir saldırı türü tespit edildiğinde ilgili koruma önlemleri uygulanabilir. Örneğin, SQL enjeksiyonu tespit edildiğinde, proje ilgili IP adresini engelleyebilir veya gerekli önlemleri alabilir.
+
+## Gereklilikler:
+
+- Python 3.9 veya daha yeni bir sürümünün yüklü olması gerekmektedir.
+- Debian tabanlı Linux sistemler tavsiye edilmektedir.
+- Aşağıda belirtilen kütüphanelerin projede kullanılması gerekmektedir:
+    **Pandas**: Veri manipülasyonu için kullanılan bir kütüphane.
+    **Scikit-learn**: Makine öğrenmesi modellerinin oluşturulması ve değerlendirilmesi için kullanılan bir kütüphane.
+    **Joblib**: Eğitilen makine öğrenmesi modellerinin kaydedilmesi ve yüklenmesi için kullanılan bir kütüphane.
+    **TfidfVectorizer**: Metin verilerinin sayısal özelliklere dönüştürülmesi için kullanılan bir kütüphane.
+    **Scapy**: Ağ paketlerini yakalamak ve manipüle etmek için kullanılan bir kütüphane.
+
+Projeyi çalıştırmak için, yukarıda belirtilen kütüphanelerin Python ortamınızda yüklü olması gerekmektedir. Bunları pip veya conda gibi paket yöneticileri kullanarak kurabilirsiniz. Ayrıca, projenin düzgün çalışması için Python 3.9 veya daha yeni bir sürümünü kullanmanız tavsiye edilmektedir. Debian tabanlı Linux sistemler, projenin test edildiği ve tavsiye edilen işletim sistemleridir, ancak diğer Linux dağıtımlarında da çalışabilir.
+
+Bu gereklilikleri karşıladığınızda, projeyi başarıyla çalıştırabilir ve geliştirme sürecine devam edebilirsiniz.
