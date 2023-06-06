@@ -1,7 +1,7 @@
-# waffox
+# WAFFOX
 Bu proje, bir web uygulaması güvenlik duvarı (WAF) oluşturmayı amaçlamaktadır. WAF, web uygulamalarını çeşitli saldırılara karşı korumak için kullanılan bir güvenlik önlemidir. Bu projenin amacı, gelişmiş makine öğrenmesi algoritmalarını kullanarak potansiyel saldırıları tespit etmek ve engellemek için bir WAF oluşturmaktır. WAF, web uygulamalarının güvenliğini artırarak kullanıcı bilgilerinin ve sistem bütünlüğünün korunmasına yardımcı olur.
 
-# PROJE ÖZELLİKLERİ:
+## PROJE ÖZELLİKLERİ:
 Bu proje, çeşitli önemli özelliklere sahiptir:
 
 - **Veri seti işleme**: Proje, pandas kütüphanesini kullanarak veri setini işlemektedir. Veriler, bir CSV dosyasından yüklenmekte ve eksik değerler temizlenmektedir. Bu adım, güvenlik duvarının eğitiminde kullanılacak verilerin hazırlanmasını sağlar.
