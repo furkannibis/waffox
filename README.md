@@ -14,7 +14,7 @@ Bu proje, çeşitli önemli özelliklere sahiptir:
 
 - **Kural tabanlı koruma**: Proje, bir kural dosyasını okuyarak saldırı türleri ve koruma önlemleri arasındaki ilişkiyi anlamaktadır. Bu şekilde, belirli bir saldırı türü tespit edildiğinde ilgili koruma önlemleri uygulanabilir. Örneğin, SQL enjeksiyonu tespit edildiğinde, proje ilgili IP adresini engelleyebilir veya gerekli önlemleri alabilir.
 
-## Gereklilikler:
+## GEREKLİLİKLER:
 
 - Python 3.9 veya daha yeni bir sürümünün yüklü olması gerekmektedir.
 - Debian tabanlı Linux sistemler tavsiye edilmektedir.
@@ -40,7 +40,7 @@ Projenin örnek kullanımı aşağıdaki adımları içerebilir:
 - Saldırı tespitleri ve uygulanan koruma önlemleri bir log dosyasına kaydedilir.
 - Proje, güncel saldırı türleri ve koruma önlemleri hakkında bildirimler gönderebilir.
 
-## Koruma Verilen Saldırı Türleri
+## KORUMA VERİLEN SALDIRI TÜRLERİ
 
 Projenin amacı, bir Web Uygulama Güvenlik Duvarı (WAF) oluşturmak ve belirli saldırı türlerine karşı koruma sağlamaktır. Aşağıda, projede hedeflenen saldırı türleri ve alınan koruma önlemleri bulunmaktadır:
 
@@ -73,3 +73,6 @@ Projenin amacı, bir Web Uygulama Güvenlik Duvarı (WAF) oluşturmak ve belirli
     Belirli bir süre içinde gelen yoğun istekleri tespit ederek saldırıları engellenmektedir.
 
 Bu saldırı türlerine karşı alınan koruma önlemleri, projenin temel amacı olan web uygulamalarını güvenli hale getirme çabasını yansıtmaktadır. Saldırıların tespit edilmesi ve engellenmesi, web uygulamalarının güvenliğini artırarak kullanıcı verilerini ve sistem bütünlüğünü korumayı hedeflemektedir.
+
+## SONUÇ:
+Bu proje, web uygulamalarını güvenlik tehditlerine karşı korumak için gelişmiş makine öğrenmesi tekniklerini kullanmaktadır. Bu sayede, potansiyel saldırıları tespit edebilir ve engelleyebilir. Bu proje, web uygulamalarının güvenliğini artırmak isteyen şirketler, geliştiriciler ve güvenlik uzmanları için faydalı bir araç olabilir.
