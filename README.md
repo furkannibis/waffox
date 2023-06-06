@@ -39,3 +39,37 @@ Projenin örnek kullanımı aşağıdaki adımları içerebilir:
 - Saldırı türlerine bağlı olarak koruma önlemleri uygulanır.
 - Saldırı tespitleri ve uygulanan koruma önlemleri bir log dosyasına kaydedilir.
 - Proje, güncel saldırı türleri ve koruma önlemleri hakkında bildirimler gönderebilir.
+
+## Koruma Verilen Saldırı Türleri
+
+Projenin amacı, bir Web Uygulama Güvenlik Duvarı (WAF) oluşturmak ve belirli saldırı türlerine karşı koruma sağlamaktır. Aşağıda, projede hedeflenen saldırı türleri ve alınan koruma önlemleri bulunmaktadır:
+
+- **SQL Enjeksiyonu (SQL Injection)**:
+    SQL enjeksiyon saldırılarına karşı önlem alınmaktadır.
+    Potansiyel SQL enjeksiyonları tespit edilerek engellenmektedir.
+
+- **XSS Saldırıları (Cross-Site Scripting)**:
+    XSS saldırılarına karşı koruma sağlanmaktadır.
+    Zararlı JavaScript kodlarının enjekte edilmesi önlenmektedir.
+
+- **Komut Enjeksiyonu (Command Injection)**:
+    Komut enjeksiyonu saldırılarına karşı koruma mekanizmaları bulunmaktadır.
+    Zararlı komutların enjekte edilmesi engellenmektedir.
+
+- **Yol Geçişi (Path Traversal)**:
+    Yol geçişi saldırılarına karşı önlem alınmaktadır.
+    Erişim kontrolü ve kısıtlamalar ile zararlı dosya veya dizinlere erişim engellenmektedir.
+
+- **JS İsteği (JS Injection)**:
+    JS isteği saldırılarına karşı koruma sağlanmaktadır.
+    Zararlı JavaScript kodlarının kullanılması engellenmektedir.
+
+- **Yasaklı Kelimeler (Ban Word)**:
+    Belirli yasaklı kelimelerin içeren istekler engellenmektedir.
+    Saldırgan içerikli verilerin filtrelenmesi ve engellenmesi gerçekleştirilmektedir.
+
+- **Dağıtılmış Hizmet Engelleme (DoS)**:
+    DoS saldırılarına karşı koruma mekanizmaları bulunmaktadır.
+    Belirli bir süre içinde gelen yoğun istekleri tespit ederek saldırıları engellenmektedir.
+
+Bu saldırı türlerine karşı alınan koruma önlemleri, projenin temel amacı olan web uygulamalarını güvenli hale getirme çabasını yansıtmaktadır. Saldırıların tespit edilmesi ve engellenmesi, web uygulamalarının güvenliğini artırarak kullanıcı verilerini ve sistem bütünlüğünü korumayı hedeflemektedir.
