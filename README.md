@@ -28,3 +28,14 @@ Bu proje, çeşitli önemli özelliklere sahiptir:
 Projeyi çalıştırmak için, yukarıda belirtilen kütüphanelerin Python ortamınızda yüklü olması gerekmektedir. Bunları pip veya conda gibi paket yöneticileri kullanarak kurabilirsiniz. Ayrıca, projenin düzgün çalışması için Python 3.9 veya daha yeni bir sürümünü kullanmanız tavsiye edilmektedir. Debian tabanlı Linux sistemler, projenin test edildiği ve tavsiye edilen işletim sistemleridir, ancak diğer Linux dağıtımlarında da çalışabilir.
 
 Bu gereklilikleri karşıladığınızda, projeyi başarıyla çalıştırabilir ve geliştirme sürecine devam edebilirsiniz.
+
+## ÖRNEK KULLANIM:
+Projenin örnek kullanımı aşağıdaki adımları içerebilir:
+
+-Veri seti hazırlanır ve eğitim için kullanılır.
+-Eğitim veri seti üzerinde bir makine öğrenimi modeli oluşturulur.
+-Proje başlatılır ve ağ trafiği dinlenmeye başlar.
+-Gelen paketler analiz edilir ve potansiyel saldırılar tespit edilir.
+-Saldırı türlerine bağlı olarak koruma önlemleri uygulanır.
+-Saldırı tespitleri ve uygulanan koruma önlemleri bir log dosyasına kaydedilir.
+-Proje, güncel saldırı türleri ve koruma önlemleri hakkında bildirimler gönderebilir.
